@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    width: 100;
+}
+.top-section{
+     background-color: black;
+}
+/* .navbar{
+    background-color: black;
+} */
+.included{
+    background:  #DDBF80;
+}
+.events{
+     background-color: black;
+}
+.booking{
+    background:  #DDBF80;
+}
+.footer-top{
+     background-color: black;
+}
+.footer-bottom{
+    background:  #DDBF80;
+
+}
+/* .logo-section{
+    width: 343px;
+    height: 180px;
+    top: 28px;
+    left: 557px;
+} */ 
+.logo{
+    width: 343px;
+    height: 180%;
+    top: 28px;
+    left: 557px;
+    
+    opacity: 1; 
+
+}
+.nav-links{
+    width: 1439;
+    height: 42%;
+    /* angle: 0 deg; */
+    opacity: 1;
+    top: 274px;
+    background-color: #DDBF80;
+    display: flex;
+    justify-content:center;
+
+}
+/* .image-gallery{
+    background-color: black;
+} */

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Astro Celebrations</title>
+    <link rel="stylesheet" href="booknow.css" />
+  </head>
+  <body>
+    <div class="top-section">
+      <header class="navbar">
+        <div class="logo-section">
+          <a href="home.html"><img
+            src="images/logo.png"
+            alt="Astro Celebrations Logo"
+            class="logo"
+          /></a>
+          
+        </div>
+         <nav class="nav-menu">
+
+        <a href="aboutpage.html">ABOUT US</a>
+        <a href="serve.html">SERVICES</a>
+        <a href="faq.html">FAQs</a>
+        <a href="booknow.html" class="book-btn">BOOK NOW</a>
+
+      </nav>
+      </header>
+
+      
+    </div>
+
+    
+
+    <section class="booking">
+  <h2>Ready to Book?</h2>
+  <div class="forms">
+    <div class="form-group">
+      <h3>Book A Tour</h3>
+      <form class="custom-form">
+        <label for="client1">Client 1</label>
+          <input type="text" />
+          <label for="client2">Client 2 Name (if applicable)</label>
+          <input type="text" />
+          <label for="phone">Phone Number</label>
+          <input type="number" />
+          <label for="email">Email Address</label>
+          <input type="email" />
+          <label for="date">Desired Date of Tour</label>
+          <div class="manual-date">
+            <input type="number" id="month" placeholder="MM" min="1" max="12" />
+            <input type="number" id="day" placeholder="DD" min="1" max="31" />
+            <input
+              type="number"
+              id="year"
+              placeholder="YYYY"
+              min="1900"
+              max="2099"
+            />
+            <label class="no-preference">
+              <input type="checkbox" id="noPref" />
+              <span class="checkmark"></span>
+              No Preference
+            </label>
+          </div>
+          <!-- <input type="date"/> -->
+          <p>
+            <i
+              >Once this form has been submitted, our team will contact you
+              shortly to finalize a date and time for your tour!</i
+            >
+          </p>
+          <button type="submit"><i>Submit</i></button>
+      </form>
+    </div>
+
+    <div class="form-group">
+      <h3>Book The Venue</h3>
+      <form class="custom-form">
+        <label for="client1">Client 1</label>
+          <input type="text" />
+          <label for="client2">Client 2 Name (if applicable)</label>
+          <input type="text" />
+          <label for="phone">Phone Number</label>
+          <input type="number" />
+          <label for="email">Email Address</label>
+          <input type="email" />
+          <label for="date">Desired Date of Event</label>
+          <div class="manual-date">
+            <input type="number" id="month" placeholder="MM" min="1" max="12" />
+            <input type="number" id="day" placeholder="DD" min="1" max="31" />
+            <input
+              type="number"
+              id="year"
+              placeholder="YYYY"
+              min="1900"
+              max="2099"
+            />
+            <label class="no-preference">
+              <input type="checkbox" id="noPref" />
+              <span class="checkmark"></span>
+              No Preference
+            </label>
+          </div>
+          <p>
+            <i
+              >Once this form has been submitted, our team will contact you
+              shortly to finalize a date and time for your tour!</i
+            >
+          </p>
+          
+          <button type="submit"><i>Submit</i></button>
+      </form>
+    </div>
+  </div>
+</section>
+
+
+    
+    <footer class="footer">
+      
+      <div class="footer-bottom">
+        <div class="top-row">
+        <p>email@email.com</p>
+        
+        
+          <p class="center-text">(###) ### - ####</p>
+        
+        
+       <p class="bottom-row">Astro Celebrations <br>
+Address of Venue <br>
+Cumming, GA 30041</p>
+</div>
+<div class="bottom-row-text">
+  <p>Astro Celebrations © 2022. All Rights Reserved.</p>
+</div>
+        
+      </div>
+    </footer>
+  </body>
+</html>
